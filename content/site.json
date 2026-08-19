@@ -1,0 +1,311 @@
+{
+  "updatedAt": "2026-08-17T12:28:03.219Z",
+  "brand": {
+    "name": "Prime Dot",
+    "nameAccent": "Studio",
+    "tagline": "Digital studio · Est. 2020",
+    "logo": "/logo.png"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Why Us",
+        "href": "/why-us"
+      },
+      {
+        "label": "Team",
+        "href": "/team"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "ctaLabel": "Start a project",
+    "ctaHref": "/contact"
+  },
+  "hero": {
+    "kicker": "Digital studio · Est. 2020",
+    "headline": [
+      {
+        "text": "We build"
+      },
+      {
+        "text": "bold digital",
+        "accent": true
+      },
+      {
+        "text": "products & brands"
+      }
+    ],
+    "subtitle": "Prime Dot Studio engineers software, websites and AI systems — then wraps them in design and marketing that makes people stop, look and click.",
+    "primaryCtaLabel": "Start a project",
+    "primaryCtaHref": "/contact",
+    "secondaryCtaLabel": "See what we do",
+    "secondaryCtaHref": "/services",
+    "stats": [
+      {
+        "value": "07",
+        "label": "Core services"
+      },
+      {
+        "value": "04",
+        "label": "Specialists"
+      },
+      {
+        "value": "∞",
+        "label": "Commitment"
+      }
+    ]
+  },
+  "marquee": {
+    "items": [
+      "Software Development",
+      "Website Development",
+      "AI Assistant Software",
+      "AI Models",
+      "Graphic Design",
+      "Branding",
+      "Social Media Marketing"
+    ]
+  },
+  "servicesSection": {
+    "kicker": "What we do",
+    "title": [
+      {
+        "text": "Seven services."
+      },
+      {
+        "text": "One red dot.",
+        "accent": true
+      }
+    ],
+    "description": "One studio, full stack — strategy, engineering, design and growth under a single red dot.",
+    "viewAllLabel": "View all services →",
+    "allCard": {
+      "count": "7",
+      "title": "All seven disciplines",
+      "body": "Engineering, AI, design, branding and growth — fully in-house.",
+      "label": "Explore services →"
+    }
+  },
+  "services": [
+    {
+      "title": "Software Development",
+      "tag": "01 / Engineering",
+      "description": "Custom desktop, web and mobile software — engineered to scale, built to last."
+    },
+    {
+      "title": "Website Development",
+      "tag": "02 / Web",
+      "description": "Fast, responsive, conversion-focused websites with design that performs."
+    },
+    {
+      "title": "AI Assistant Software",
+      "tag": "03 / AI",
+      "description": "Intelligent assistants that answer, automate and work beside your team."
+    },
+    {
+      "title": "AI Models",
+      "tag": "04 / AI",
+      "description": "Trained, fine-tuned models tuned to your data, your domain, your rules."
+    },
+    {
+      "title": "Graphic Design",
+      "tag": "05 / Design",
+      "description": "Visuals that speak: posters, social assets, product art and motion."
+    },
+    {
+      "title": "Branding",
+      "tag": "06 / Identity",
+      "description": "Logos, identity systems and brand voices that make you unmistakable."
+    },
+    {
+      "title": "Social Media Marketing",
+      "tag": "07 / Growth",
+      "description": "Strategy, content and campaigns that turn attention into revenue."
+    }
+  ],
+  "whySection": {
+    "kicker": "Why Prime Dot",
+    "titlePrefix": "The studio that treats your product like",
+    "titleAccent": "its own signature",
+    "body": "Full-stack under one roof, owners in the work, built for momentum. No handoffs, no finger-pointing — just shipped.",
+    "ctaLabel": "Why us →",
+    "ctaHref": "/why-us"
+  },
+  "stats": [
+    {
+      "value": "40+",
+      "label": "Projects shipped"
+    },
+    {
+      "value": "07",
+      "label": "Disciplines in-house"
+    },
+    {
+      "value": "04",
+      "label": "Core specialists"
+    },
+    {
+      "value": "98%",
+      "label": "Client retention"
+    }
+  ],
+  "reasons": [
+    {
+      "title": "Full-stack under one roof",
+      "body": "Engineering, design, AI and marketing — no handoffs, no finger-pointing."
+    },
+    {
+      "title": "Owners in the work",
+      "body": "The studio leads code and design personally. Your project is our signature."
+    },
+    {
+      "title": "Built for momentum",
+      "body": "Launch fast, measure, iterate. We ship what grows your business."
+    }
+  ],
+  "teamSection": {
+    "kicker": "The crew",
+    "title": [
+      {
+        "text": "Small team."
+      },
+      {
+        "text": "Serious output.",
+        "accent": true
+      }
+    ],
+    "description": "Four specialists, each owning a discipline end-to-end.",
+    "viewAllLabel": "Meet the crew →"
+  },
+  "team": [
+    {
+      "name": "Muhammad Ehtisham",
+      "role": "Software & AI Engineer",
+      "initials": "ME",
+      "bio": "Architects the software and AI systems behind the product."
+    },
+    {
+      "name": "Abdullah Tufail",
+      "role": "Full Stack Developer",
+      "initials": "AT",
+      "bio": "Builds the fast, responsive softwares that carry the brand."
+    },
+    {
+      "name": "Ahmed Raza",
+      "role": "Design & Branding",
+      "initials": "AR",
+      "bio": "Crafts the identity, the visuals and the way it feels."
+    },
+    {
+      "name": "Talha Quereshi",
+      "role": "Marketing Lead",
+      "initials": "TQ",
+      "bio": "Turns attention into demand and demand into growth."
+    }
+  ],
+  "contactSection": {
+    "kicker": "Start something",
+    "titlePrefix": "Got an idea?",
+    "titleAccent": "Let's make it bold.",
+    "body": "Tell us where you want to go — we'll map the product, the pixels and the plan. First call is free, always.",
+    "email": "hello@primedot.studio",
+    "backLabel": "Back to top ↑",
+    "backHref": "#top"
+  },
+  "location": {
+    "kicker": "Visit us",
+    "title": [
+      {
+        "text": "Found in Sialkot,"
+      },
+      {
+        "text": "working worldwide"
+      }
+    ],
+    "description": "Based in Sialkot, Punjab — serving clients across Pakistan and beyond.",
+    "name": "Prime Dot Studio",
+    "address": [
+      "Sialkot, Punjab",
+      "Pakistan"
+    ],
+    "email": "hello@primedot.studio",
+    "hours": "Mon – Sat · 9:00 – 18:00",
+    "mapQuery": "https://www.google.com/maps?q=Prime+Dot+Studio+Sialkot+Punjab+Pakistan&z=13&output=embed",
+    "mapTitle": "Prime Dot Studio — Sialkot",
+    "directionsUrl": "https://www.google.com/maps/search/?api=1&query=Prime+Dot+Studio+Sialkot+Punjab+Pakistan",
+    "buttonLabel": "Get directions ↗"
+  },
+  "footer": {
+    "about": "A full-service digital studio building software, websites, AI, brands and campaigns that move businesses forward.",
+    "socials": [
+      {
+        "label": "LinkedIn ↗",
+        "href": "https://linkedin.com"
+      },
+      {
+        "label": "Instagram ↗",
+        "href": "https://instagram.com"
+      }
+    ],
+    "copyrightSuffix": "All rights reserved.",
+    "crafted": "Crafted in-house",
+    "craftedAccent": "with precision"
+  },
+  "pages": {
+    "services": {
+      "kicker": "What we do",
+      "titlePrefix": "Seven ways we",
+      "titleAccent": "move brands forward",
+      "subtitle": "One studio, full stack — strategy, engineering, design and growth under a single red dot.",
+      "metaTitle": "Services — Prime Dot Studio",
+      "metaDescription": "Software development, websites, AI assistants, AI models, graphic design, branding and social media marketing — seven disciplines, one studio."
+    },
+    "team": {
+      "kicker": "The crew",
+      "titlePrefix": "Small team.",
+      "titleAccent": "Serious output.",
+      "subtitle": "Four specialists, each owning a discipline end-to-end.",
+      "metaTitle": "Team — Prime Dot Studio",
+      "metaDescription": "Muhammad Ehtisham, Abdullah Tufail, Ahmed Raza and Talha Quereshi — the four specialists behind Prime Dot Studio."
+    },
+    "why": {
+      "kicker": "Why Prime Dot",
+      "titlePrefix": "The studio that treats your product like",
+      "titleAccent": "its own signature",
+      "subtitle": "Four specialists, each owning a discipline end-to-end — no handoffs, no finger-pointing.",
+      "metaTitle": "Why Prime Dot — Prime Dot Studio",
+      "metaDescription": "Full-stack under one roof, owners in the work, built for momentum — the reasons clients put their signature on our projects."
+    },
+    "contact": {
+      "kicker": "Start something",
+      "titlePrefix": "Got an idea?",
+      "titleAccent": "Let's make it bold.",
+      "subtitle": "Tell us where you want to go — we'll map the product, the pixels and the plan.",
+      "metaTitle": "Contact — Prime Dot Studio",
+      "metaDescription": "Got an idea? Let's make it bold. Reach Prime Dot Studio at hello@primedot.studio — the first call is free, always."
+    }
+  },
+  "seo": {
+    "siteTitle": "Prime Dot Studio — Digital Agency",
+    "siteDescription": "Prime Dot Studio is a full-service digital studio crafting software, websites, AI solutions, branding and marketing that moves brands forward.",
+    "keywords": [
+      "software development",
+      "website development",
+      "AI assistants",
+      "AI models",
+      "graphic design",
+      "branding",
+      "social media marketing",
+      "Prime Dot Studio"
+    ],
+    "ogTitle": "Prime Dot Studio — Digital Agency",
+    "ogDescription": "Software, web, AI, design and marketing — a full-service digital studio."
+  }
+}
