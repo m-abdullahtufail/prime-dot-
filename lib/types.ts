@@ -23,8 +23,13 @@ export type Member = {
   name: string;
   role: string;
   initials: string;
+  slug: string;
   photo?: string;
   bio: string;
+  email?: string;
+  phone?: string;
+  linkedin?: string;
+  instagram?: string;
 };
 
 export type Reason = {

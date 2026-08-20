@@ -40,6 +40,10 @@ export default function Team({ showHeader = true }: TeamProps) {
           {team.map((member, i) => (
             <Reveal key={member.name} delay={i * 110}>
               <TiltCard className="h-full">
+                <a
+                  href={`/team/${member.slug}`}
+                  className="block h-full transition-opacity duration-300 hover:opacity-95"
+                >
                 <article className="card group h-full overflow-hidden p-0 text-center">
                   <div className="relative aspect-square overflow-hidden">
                     <div className="absolute inset-0 z-10 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
@@ -72,6 +76,7 @@ export default function Team({ showHeader = true }: TeamProps) {
                     </p>
                   </div>
                 </article>
+                </a>
               </TiltCard>
             </Reveal>
           ))}

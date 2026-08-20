@@ -189,29 +189,46 @@
       "name": "Muhammad Ehtisham",
       "role": "Software & AI Engineer",
       "initials": "ME",
+      "slug": "ehtisham",
       "photo": "/team/ehtisham.jpg",
-      "bio": "Architects the software and AI systems behind the product."
+      "bio": "Architects the software and AI systems behind the product.",
+      "email": "1ehtishamtahir@gmail.com",
+      "phone": "+92 371 620 6003",
+      "linkedin": "https://www.linkedin.com/in/1ehtishamtahir/",
+      "instagram": "https://www.instagram.com/1ehtishamtahir/"
     },
     {
       "name": "Abdullah Tufail",
       "role": "Full Stack Developer",
       "initials": "AT",
+      "slug": "abdullah-tufail",
       "photo": "/team/abdullah.jpg",
-      "bio": "Builds the fast, responsive softwares that carry the brand."
+      "bio": "Builds the fast, responsive softwares that carry the brand.",
+      "email": "contactabdullah152@gmail.com",
+      "phone": "+92 328 592 1419",
+      "linkedin": "https://www.linkedin.com/in/abdullah-tufail-2b57a9329/",
+      "instagram": "https://www.instagram.com/abdullahusingthis/"
     },
     {
       "name": "Ahmed Raza",
       "role": "Design & Branding",
       "initials": "AR",
+      "slug": "ahmed-raza",
       "photo": "/team/ahmed.jpg",
-      "bio": "Crafts the identity, the visuals and the way it feels."
+      "bio": "Crafts the identity, the visuals and the way it feels.",
+      "phone": "+92 314 7563138"
     },
     {
       "name": "Talha Quereshi",
       "role": "Marketing Lead",
       "initials": "TQ",
+      "slug": "talha-quereshi",
       "photo": "/team/talha.jpg",
-      "bio": "Turns attention into demand and demand into growth."
+      "bio": "Turns attention into demand and demand into growth.",
+      "email": "talhakamran581@gmail.com",
+      "phone": "+92 307 166 1970",
+      "linkedin": "https://www.linkedin.com/in/talha-kamran-88398a2a0/",
+      "instagram": "https://www.instagram.com/italha.qureshi/"
     }
   ],
   "contactSection": {
@@ -261,7 +278,7 @@
     "socials": [
       {
         "label": "LinkedIn ↗",
-        "href": "https://linkedin.com"
+        "href": "https://www.linkedin.com/in/prime-dotstudio-6bb92342a/"
       },
       {
         "label": "Instagram ↗",

@@ -390,13 +390,18 @@ export function TeamPanel({ draft, setDraft, defaults }: PanelProps) {
           items={draft.team}
           onChange={(team) => setDraft((d) => ({ ...d, team }))}
           addLabel="Add member"
-          newItem={() => ({ name: "", role: "", initials: "", photo: "", bio: "" })}
+          newItem={() => ({ name: "", role: "", initials: "", slug: "", photo: "", bio: "", email: "", phone: "", linkedin: "", instagram: "" })}
           renderHeader={(item) => item.name || "New member"}
           fields={[
             { key: "name", label: "Name" },
             { key: "role", label: "Role" },
             { key: "initials", label: "Initials", placeholder: "e.g. ME", hint: "Shown when no photo is set." },
+            { key: "slug", label: "Slug", placeholder: "e.g. ehtisham", hint: "Page URL: /team/[slug]. Change only if needed." },
             { key: "photo", label: "Photo URL", placeholder: "/team/ehtisham.jpg", hint: "Square image works best." },
+            { key: "phone", label: "Phone", placeholder: "+92 300 1234567", hint: "Opens in WhatsApp." },
+            { key: "email", label: "Email" },
+            { key: "linkedin", label: "LinkedIn URL" },
+            { key: "instagram", label: "Instagram URL" },
             { key: "bio", label: "Bio", type: "textarea", span2: true },
           ]}
         />

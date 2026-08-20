@@ -1,4 +1,5 @@
 import Reveal from "@/components/Reveal";
+import TiltCard from "@/components/TiltCard";
 import { getContent } from "@/lib/content";
 
 export default function TeamPreview() {
@@ -35,38 +36,45 @@ export default function TeamPreview() {
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {team.map((member, i) => (
             <Reveal key={member.name} delay={i * 110}>
-              <article className="card group h-full overflow-hidden p-0 text-center">
-                <div className="relative aspect-square overflow-hidden">
-                  <div className="absolute inset-0 z-10 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
-                  <div className="absolute inset-0 z-0 bg-gradient-to-b from-ink-soft to-ink">
-                    {member.photo ? (
-                      <img
-                        src={member.photo}
-                        alt={member.name}
-                        className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
-                        loading="lazy"
-                      />
-                    ) : (
-                      <div className="grid h-full w-full place-items-center font-display text-5xl font-bold text-cream">
-                        {member.initials}
-                      </div>
-                    )}
+              <TiltCard className="h-full">
+                <a
+                  href={`/team/${member.slug}`}
+                  className="block h-full transition-opacity duration-300 hover:opacity-95"
+                >
+                <article className="card group h-full overflow-hidden p-0 text-center">
+                  <div className="relative aspect-square overflow-hidden">
+                    <div className="absolute inset-0 z-10 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+                    <div className="absolute inset-0 z-0 bg-gradient-to-b from-ink-soft to-ink">
+                      {member.photo ? (
+                        <img
+                          src={member.photo}
+                          alt={member.name}
+                          className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div className="grid h-full w-full place-items-center font-display text-5xl font-bold text-cream">
+                          {member.initials}
+                        </div>
+                      )}
+                    </div>
+                    <div className="absolute inset-x-0 bottom-0 z-20 flex translate-y-6 items-center justify-center bg-ink/55 px-6 py-5 backdrop-blur-md">
+                      <h3 className="-translate-y-2 text-center font-display text-base font-bold uppercase tracking-wide text-cream">
+                        {member.name}
+                      </h3>
+                    </div>
                   </div>
-                  <div className="absolute inset-x-0 bottom-0 z-20 flex translate-y-6 items-center justify-center bg-ink/55 px-6 py-5 backdrop-blur-md">
-                    <h3 className="-translate-y-2 text-center font-display text-base font-bold uppercase tracking-wide text-cream">
-                      {member.name}
-                    </h3>
+                  <div className="px-6 pb-7 pt-7">
+                    <p className="font-mono text-[11px] font-bold uppercase tracking-[0.22em] text-prime-light">
+                      {member.role}
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-mist">
+                      {member.bio}
+                    </p>
                   </div>
-                </div>
-                <div className="px-6 pb-7 pt-7">
-                  <p className="font-mono text-[11px] font-bold uppercase tracking-[0.22em] text-prime-light">
-                    {member.role}
-                  </p>
-                  <p className="mt-3 text-sm leading-relaxed text-mist">
-                    {member.bio}
-                  </p>
-                </div>
-              </article>
+                </article>
+                </a>
+              </TiltCard>
             </Reveal>
           ))}
         </div>
