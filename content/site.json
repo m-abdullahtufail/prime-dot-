@@ -174,10 +174,10 @@
     "kicker": "The crew",
     "title": [
       {
-        "text": "Small team."
+        "text": "Lead the team."
       },
       {
-        "text": "Serious output.",
+        "text": "Build something great.",
         "accent": true
       }
     ],
@@ -283,8 +283,8 @@
     },
     "team": {
       "kicker": "The crew",
-      "titlePrefix": "Small team.",
-      "titleAccent": "Serious output.",
+      "titlePrefix": "Lead the team.",
+      "titleAccent": "Build something great.",
       "subtitle": "Four specialists, each owning a discipline end-to-end.",
       "metaTitle": "Software Development Agency Team | Prime Dot Studio",
       "metaDescription": "Meet the specialists behind Prime Dot Studio — a software development agency with software engineering, AI, design and marketing under one roof."
