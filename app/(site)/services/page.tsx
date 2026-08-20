@@ -2,13 +2,11 @@ import type { Metadata } from "next";
 import PageHeader from "@/components/PageHeader";
 import Services from "@/components/Services";
 import { getContent } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
 
-export async function generateMetadata(): Promise<Metadata> {
+export function generateMetadata(): Metadata {
   const p = getContent().pages.services;
-  return {
-    title: p.metaTitle,
-    description: p.metaDescription,
-  };
+  return pageMetadata("/services", p.metaTitle, p.metaDescription);
 }
 
 export default function ServicesPage() {

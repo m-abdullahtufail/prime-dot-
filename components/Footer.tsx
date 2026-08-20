@@ -41,6 +41,17 @@ export default function Footer() {
             >
               {contactSection.email}
             </a>
+            {contactSection.phones.map((phone) => (
+              <a
+                key={phone.href}
+                href={phone.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-link text-left"
+              >
+                {phone.label}
+              </a>
+            ))}
             {footer.socials.map((social) => (
               <a
                 key={social.label}

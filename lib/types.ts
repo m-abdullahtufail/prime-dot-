@@ -23,6 +23,7 @@ export type Member = {
   name: string;
   role: string;
   initials: string;
+  photo?: string;
   bio: string;
 };
 
@@ -102,6 +103,7 @@ export type SiteContent = {
     titleAccent: string;
     body: string;
     email: string;
+    phones: Link[];
     backLabel: string;
     backHref: string;
   };
@@ -132,6 +134,7 @@ export type SiteContent = {
     contact: PageContent;
   };
   seo: {
+    siteUrl: string;
     siteTitle: string;
     siteDescription: string;
     keywords: string[];

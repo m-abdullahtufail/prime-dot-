@@ -40,22 +40,37 @@ export default function Team({ showHeader = true }: TeamProps) {
           {team.map((member, i) => (
             <Reveal key={member.name} delay={i * 110}>
               <TiltCard className="h-full">
-                <article className="card group h-full p-7 text-center">
-                  <div className="relative mx-auto size-24">
-                    <div className="absolute inset-0 rounded-full bg-prime/30 blur-lg transition-all duration-500 group-hover:bg-prime/60" />
-                    <div className="relative grid size-24 place-items-center rounded-full border border-prime/40 bg-gradient-to-b from-ink-soft to-ink font-display text-2xl font-bold text-cream transition-transform duration-500 group-hover:scale-105">
-                      {member.initials}
+                <article className="card group h-full overflow-hidden p-0 text-center">
+                  <div className="relative aspect-square overflow-hidden">
+                    <div className="absolute inset-0 z-10 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+                    <div className="absolute inset-0 z-0 bg-gradient-to-b from-ink-soft to-ink">
+                      {member.photo ? (
+                        <img
+                          src={member.photo}
+                          alt={member.name}
+                          className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <div className="grid h-full w-full place-items-center font-display text-5xl font-bold text-cream">
+                          {member.initials}
+                        </div>
+                      )}
+                    </div>
+                    <div className="absolute inset-x-0 bottom-0 z-20 flex translate-y-6 items-center justify-center bg-ink/55 px-6 py-5 backdrop-blur-md">
+                      <h3 className="-translate-y-2 text-center font-display text-base font-bold uppercase tracking-wide text-cream">
+                        {member.name}
+                      </h3>
                     </div>
                   </div>
-                  <h3 className="mt-6 font-display text-base font-bold uppercase tracking-wide text-cream">
-                    {member.name}
-                  </h3>
-                  <p className="mt-1.5 font-mono text-[10px] uppercase tracking-[0.22em] text-prime-light">
-                    {member.role}
-                  </p>
-                  <p className="mt-4 text-sm leading-relaxed text-mist">
-                    {member.bio}
-                  </p>
+                  <div className="px-6 pb-7 pt-7">
+                    <p className="font-mono text-[11px] font-bold uppercase tracking-[0.22em] text-prime-light">
+                      {member.role}
+                    </p>
+                    <p className="mt-3 text-sm leading-relaxed text-mist">
+                      {member.bio}
+                    </p>
+                  </div>
                 </article>
               </TiltCard>
             </Reveal>

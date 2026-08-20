@@ -32,17 +32,17 @@
     "kicker": "Digital studio · Est. 2020",
     "headline": [
       {
-        "text": "We build"
+        "text": "We turn ideas"
       },
       {
-        "text": "bold digital",
+        "text": "into software"
+      },
+      {
+        "text": "that works.",
         "accent": true
-      },
-      {
-        "text": "products & brands"
       }
     ],
-    "subtitle": "Prime Dot Studio engineers software, websites and AI systems — then wraps them in design and marketing that makes people stop, look and click.",
+    "subtitle": "Prime Dot Studio is a software development company building custom software, web applications, mobile apps and digital products for businesses and startups.",
     "primaryCtaLabel": "Start a project",
     "primaryCtaHref": "/contact",
     "secondaryCtaLabel": "See what we do",
@@ -189,24 +189,28 @@
       "name": "Muhammad Ehtisham",
       "role": "Software & AI Engineer",
       "initials": "ME",
+      "photo": "/team/ehtisham.jpg",
       "bio": "Architects the software and AI systems behind the product."
     },
     {
       "name": "Abdullah Tufail",
       "role": "Full Stack Developer",
       "initials": "AT",
+      "photo": "/team/abdullah.jpg",
       "bio": "Builds the fast, responsive softwares that carry the brand."
     },
     {
       "name": "Ahmed Raza",
       "role": "Design & Branding",
       "initials": "AR",
+      "photo": "/team/ahmed.jpg",
       "bio": "Crafts the identity, the visuals and the way it feels."
     },
     {
       "name": "Talha Quereshi",
       "role": "Marketing Lead",
       "initials": "TQ",
+      "photo": "/team/talha.jpg",
       "bio": "Turns attention into demand and demand into growth."
     }
   ],
@@ -215,7 +219,17 @@
     "titlePrefix": "Got an idea?",
     "titleAccent": "Let's make it bold.",
     "body": "Tell us where you want to go — we'll map the product, the pixels and the plan. First call is free, always.",
-    "email": "hello@primedot.studio",
+    "email": "primedotstudio@gmail.com",
+    "phones": [
+      {
+        "label": "+92 371 620 6003",
+        "href": "https://wa.me/923716206003?text=Hi%20Prime%20Dot%20Studio%2C%20I%27d%20like%20to%20start%20a%20project."
+      },
+      {
+        "label": "+92 321 363 1538",
+        "href": "https://wa.me/923213631538?text=Hi%20Prime%20Dot%20Studio%2C%20I%27d%20like%20to%20start%20a%20project."
+      }
+    ],
     "backLabel": "Back to top ↑",
     "backHref": "#top"
   },
@@ -235,7 +249,7 @@
       "Sialkot, Punjab",
       "Pakistan"
     ],
-    "email": "hello@primedot.studio",
+    "email": "primedotstudio@gmail.com",
     "hours": "Mon – Sat · 9:00 – 18:00",
     "mapQuery": "https://www.google.com/maps?q=Prime+Dot+Studio+Sialkot+Punjab+Pakistan&z=13&output=embed",
     "mapTitle": "Prime Dot Studio — Sialkot",
@@ -251,7 +265,7 @@
       },
       {
         "label": "Instagram ↗",
-        "href": "https://instagram.com"
+        "href": "https://www.instagram.com/primedotstudio/"
       }
     ],
     "copyrightSuffix": "All rights reserved.",
@@ -264,48 +278,62 @@
       "titlePrefix": "Seven ways we",
       "titleAccent": "move brands forward",
       "subtitle": "One studio, full stack — strategy, engineering, design and growth under a single red dot.",
-      "metaTitle": "Services — Prime Dot Studio",
-      "metaDescription": "Software development, websites, AI assistants, AI models, graphic design, branding and social media marketing — seven disciplines, one studio."
+      "metaTitle": "Custom Software Development | Prime Dot Studio",
+      "metaDescription": "Custom software development services from Prime Dot Studio — web applications, mobile apps, SaaS platforms and MVP development for businesses and startups."
     },
     "team": {
       "kicker": "The crew",
       "titlePrefix": "Small team.",
       "titleAccent": "Serious output.",
       "subtitle": "Four specialists, each owning a discipline end-to-end.",
-      "metaTitle": "Team — Prime Dot Studio",
-      "metaDescription": "Muhammad Ehtisham, Abdullah Tufail, Ahmed Raza and Talha Quereshi — the four specialists behind Prime Dot Studio."
+      "metaTitle": "Software Development Agency Team | Prime Dot Studio",
+      "metaDescription": "Meet the specialists behind Prime Dot Studio — a software development agency with software engineering, AI, design and marketing under one roof."
     },
     "why": {
       "kicker": "Why Prime Dot",
       "titlePrefix": "The studio that treats your product like",
       "titleAccent": "its own signature",
       "subtitle": "Four specialists, each owning a discipline end-to-end — no handoffs, no finger-pointing.",
-      "metaTitle": "Why Prime Dot — Prime Dot Studio",
-      "metaDescription": "Full-stack under one roof, owners in the work, built for momentum — the reasons clients put their signature on our projects."
+      "metaTitle": "Why Prime Dot Studio | Software Development Partner",
+      "metaDescription": "Why businesses choose Prime Dot Studio as their software development partner — full-stack under one roof, owners in the work, built for momentum."
     },
     "contact": {
       "kicker": "Start something",
       "titlePrefix": "Got an idea?",
       "titleAccent": "Let's make it bold.",
       "subtitle": "Tell us where you want to go — we'll map the product, the pixels and the plan.",
-      "metaTitle": "Contact — Prime Dot Studio",
-      "metaDescription": "Got an idea? Let's make it bold. Reach Prime Dot Studio at hello@primedot.studio — the first call is free, always."
+      "metaTitle": "Contact Prime Dot Studio | Software Development Company",
+      "metaDescription": "Start a project with Prime Dot Studio — a software development company building custom software, web apps and mobile products. The first call is free, always."
     }
   },
   "seo": {
-    "siteTitle": "Prime Dot Studio — Digital Agency",
-    "siteDescription": "Prime Dot Studio is a full-service digital studio crafting software, websites, AI solutions, branding and marketing that moves brands forward.",
+    "siteUrl": "https://primedotstudio.com",
+    "siteTitle": "Prime Dot Studio | Software Development Company",
+    "siteDescription": "Prime Dot Studio is a software development company specializing in custom software, web applications, mobile apps, SaaS and digital product development.",
     "keywords": [
-      "software development",
-      "website development",
-      "AI assistants",
-      "AI models",
-      "graphic design",
-      "branding",
-      "social media marketing",
+      "software development company",
+      "software development agency",
+      "custom software development",
+      "software house",
+      "software development services",
+      "web development company",
+      "web application development",
+      "mobile app development",
+      "custom software solutions",
+      "digital product development",
+      "custom web development",
+      "web app development",
+      "SaaS development",
+      "MVP development",
+      "full-stack development",
+      "UI/UX design",
+      "software consulting",
+      "software engineering",
+      "startup software development",
+      "enterprise software development",
       "Prime Dot Studio"
     ],
-    "ogTitle": "Prime Dot Studio — Digital Agency",
-    "ogDescription": "Software, web, AI, design and marketing — a full-service digital studio."
+    "ogTitle": "Prime Dot Studio | Software Development Company",
+    "ogDescription": "Prime Dot Studio is a software development company specializing in custom software, web applications, mobile apps, SaaS and digital product development."
   }
 }

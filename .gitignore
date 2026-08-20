@@ -4,6 +4,10 @@
 # next.js
 /.next/
 /out/
+/static-site/
+
+# raw source images
+/team photos/
 
 # production
 /build

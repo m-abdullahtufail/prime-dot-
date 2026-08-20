@@ -385,17 +385,18 @@ export function TeamPanel({ draft, setDraft, defaults }: PanelProps) {
         </Field>
       </SectionCard>
 
-      <SectionCard title="Team members" description="Initials are shown in the avatar circles." onReset={() => setDraft((d) => ({ ...d, team: structuredClone(defaults.team) }))}>
+      <SectionCard title="Team members" description="Photos are shown in the avatar circles; initials are the fallback." onReset={() => setDraft((d) => ({ ...d, team: structuredClone(defaults.team) }))}>
         <ListEditor
           items={draft.team}
           onChange={(team) => setDraft((d) => ({ ...d, team }))}
           addLabel="Add member"
-          newItem={() => ({ name: "", role: "", initials: "", bio: "" })}
+          newItem={() => ({ name: "", role: "", initials: "", photo: "", bio: "" })}
           renderHeader={(item) => item.name || "New member"}
           fields={[
             { key: "name", label: "Name" },
             { key: "role", label: "Role" },
-            { key: "initials", label: "Initials", placeholder: "e.g. ME", hint: "Shown in the avatar circle." },
+            { key: "initials", label: "Initials", placeholder: "e.g. ME", hint: "Shown when no photo is set." },
+            { key: "photo", label: "Photo URL", placeholder: "/team/ehtisham.jpg", hint: "Square image works best." },
             { key: "bio", label: "Bio", type: "textarea", span2: true },
           ]}
         />
