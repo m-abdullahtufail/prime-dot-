@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import Background from "@/components/Background";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -77,10 +77,6 @@ function JsonLd() {
     />
   );
 }
-
-export const viewport: Viewport = {
-  themeColor: "#060505",
-};
 
 export default function SiteLayout({
   children,
